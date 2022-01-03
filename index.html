@@ -4,6 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Computer Science webpage</title>
+	<style>
+      .comment {
+        width: 40%;
+        height: 100px;
+        padding: 10px;
+      }
+    </style>
 </head>
 
 <body>
@@ -13,6 +20,19 @@
 	<a href="https://docs.google.com/spreadsheets/d/1jXBoudugBNSKSO2SSeoiPmQhz5ZrhqMN63OqWoY651I/edit?usp=sharing"> <img src="/indeximg/timetable.png" alt="Timetable" width="447" height="270"> </a>
 	<!-- Paragraph of lorem ipsum... -->
 	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatibus ducimus ea quaerat fugiat vel ab veritatis, animi deserunt officia eius doloremque obcaecati, dolore sequi dolor nisi facere harum tempora.</p>
+
+	<form action="" method="">
+		<label for="nickname">Nickname/First name</label>
+		<input type="text" name="name" id="nickname" placeholder="Nickname">
+		<br>
+		<label for="emailaddress">Email address</label>
+		<input type="email" name="email" id="emailaddress" placeholder="email@example.com">
+		<br>
+		<textarea class="comment" placeholder="Type your comment here"></textarea>
+		<br>
+		<input type="submit" value="Submit comment">
+	</form>
+
 	<ul>
 		<li> <a href="about.html">About us</a></li>
 		<li> <a href="#top">Back to top</a></li>
